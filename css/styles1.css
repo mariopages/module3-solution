@@ -1,0 +1,76 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 1.75em;
+}
+
+.menusection {
+border: 8px solid;
+border-color: grey;
+background-color: #aaaa55;
+}
+
+p.menudetail {
+  border: none;
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  color: white;
+}
+
+.menusubtitle {
+   font-size: 1.25em;
+   padding-top: 20px;
+  color: white;
+}
+
+/*#Chicken {
+  background-color: #808000;
+}
+#Beef {
+  background-color: #800000;
+}
+#Sushi {
+  background-color: #007399;
+}*/
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+/********** Desktop devices only **********/
+@media (min-width: @screen-md-min) {
+    .col-md-4 {
+      float: left;
+  }
+  
+}
+
+/********** Tablet devices only **********/
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+  .col-sm-6, .col-sm-12 {
+    float: left;
+  }
+  /*.col-sm-6 {
+    width: 40%;
+  }
+  .col-sm-12 {
+    width: 97%;
+  }
+}
+/********** Smartphones devices only 
+@media (max-width: 767px) {
+  .col-sm-12 {
+    
+  }
+  .col-sm-12 {
+    width: 97%;
+  }
+}
+**********/
