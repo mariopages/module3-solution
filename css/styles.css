@@ -1,22 +1,21 @@
 body {
   font-size: 16px;
-  color: white;
-  background-color: grey;
-  font-family: 'Oxygen', sans-serif;
+  color: black;
+  background-color: #ff8566;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: grey;
+  background-color: #85a3e0;
   border-radius: 0;
-  border: 0;
+  border: 2px solid white;
 }
 
 .navbar-brand {
-  padding-top: 5px;
+  padding-top: 10px;
 }
 .navbar-brand h1 { /* Restaurant name */
-  color: white;
+  color: black;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -27,14 +26,17 @@ body {
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
+  outline: 0;
 }
-
+.navbar-nav {
+  margin: 0px -15px;
+}
 #nav-list {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 #nav-list a {
   border: 1px solid white;
-  color: white;
+  color: black;
 }
 #nav-list a:hover {
   background: #E7E7E7;
@@ -43,74 +45,24 @@ body {
   font-size: 1.8em;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid white;
+.navbar-default button.navbar-toggle, .icon-bar {
+  border: 2px solid black;
 }
+/*
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: 0px;
 }
+
 /* END HEADER */
 
 
 /* HOME PAGE */
 .container  {
-  border: 1px solid #3F0C1F;
+  margin-left: 5px;
+  border: 0;
+
 }
-
-
 /* END HOME PAGE */
-
-
   /* End Header */
-
-
-/********** Extra small devices only 
-@media (max-width: 767px) {
-  /* Header 
-  .navbar-brand {
-    padding-top: 10px;
-    height: 80px;
-  }
-  .navbar-brand h1 { /* Restaurant name 
-    padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width 
-  }
-  
-  #collapsable-nav a { /* Collapsed nav menu text 
-    font-size: 1.2em;
-  }
-  #collapsable-nav a span { /* Collapsed nav menu glyph 
-    font-size: 1em;
-    margin-right: 5px;
-  }
-
-  
-  /* End Header */
-
-  
-  /* Home Page */
-  .container {
-    margin-top: 30px;
-    padding: 0;
-  }
-  
-}
-
-
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
-@media (max-width: 479px) {
-  /* Header */
-  .navbar-brand h1 { /* Restaurant name */
-    padding-top: 5px;
-    font-size: 6vw;
-  }
-  /* End Header */
-  
-  /* Home page */
-  #menu-tile, #specials-tile {
-    width: 280px;
-    margin: 0 auto 15px;
-  }
-}
 

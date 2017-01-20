@@ -1,17 +1,8 @@
 /********** Base styles **********/
-* {
-  box-sizing: border-box;
-}
-
-h1 {
-  margin-bottom: 20px;
-  font-size: 1.75em;
-}
-
 .menusection {
 border: 8px solid;
-border-color: grey;
-background-color: #aaaa55;
+border-color: #ff8566;
+height: auto;
 }
 
 p.menudetail {
@@ -20,57 +11,38 @@ p.menudetail {
   width: auto;
   height: auto;
   padding: 10px;
-  color: white;
+  color: black;
 }
 
-.menusubtitle {
-   font-size: 1.25em;
-   padding-top: 20px;
-  color: white;
+#ChickenSection {
+  background-color: #ccff66;
 }
-
-/*#Chicken {
-  background-color: #808000;
+#BeefSection {
+  background-color: #66ffb3;
 }
-#Beef {
-  background-color: #800000;
+#SushiSection {
+  background-color: #66ffff;
 }
-#Sushi {
-  background-color: #007399;
-}*/
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
-  margin-bottom: 3%;
+  border: 0;
+  padding-left: 30px;
 }
-
 /********** Desktop devices only **********/
 @media (min-width: @screen-md-min) {
     .col-md-4 {
       float: left;
   }
-  
 }
-
 /********** Tablet devices only **********/
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
   .col-sm-6, .col-sm-12 {
     float: left;
   }
-  /*.col-sm-6 {
-    width: 40%;
-  }
-  .col-sm-12 {
-    width: 97%;
-  }
-}
-/********** Smartphones devices only 
-@media (max-width: 767px) {
-  .col-sm-12 {
-    
-  }
-  .col-sm-12 {
-    width: 97%;
+
+@media (max-width: @screen-xs-max){
+  #BeefSection {
+    position: absolute;
   }
 }
-**********/
