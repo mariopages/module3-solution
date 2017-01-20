@@ -48,21 +48,13 @@ body {
 .navbar-default button.navbar-toggle, .icon-bar {
   border: 2px solid black;
 }
-/*
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: 0px;
-}
 
 /* END HEADER */
-
 
 /* HOME PAGE */
 .container  {
   margin-left: 5px;
   border: 0;
-
 }
 /* END HOME PAGE */
-  /* End Header */
 
